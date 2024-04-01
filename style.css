@@ -148,10 +148,39 @@ text-align: center;
 }
 
 .quote_box {
-  width: 1100px;
+  width: 1000px;
  padding: 80px;
 }
 
 .quote_box h3 {
   text-align: end;
+}
+
+.action {
+  min-height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.action_box {
+  min-width: 900px;
+  height: 120px;
+  background-color: #3882F6;
+  color: white;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 60px;
+}
+
+.action_box button {
+  background-color: transparent;
+  color: white;
+  padding: 6px 24px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  border: 2px solid white;
 }
