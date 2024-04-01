@@ -97,3 +97,37 @@ border-radius: 8px;
   font-weight: 700;
   margin-top: 8px;
 }
+
+.section {
+  text-align: center;
+  background-color: rgb(250, 248, 248);
+  min-height: 300px;
+ padding: 20px 40px;
+}
+
+.cards {
+  display: flex;
+ justify-content: space-between;
+}
+
+.card {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 12px;
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+  border-radius: 12px;
+  border: 4px solid rgb(64, 64, 245);
+  
+}
+.section .container h3 {
+  padding-bottom: 20px;
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 700;
+}
